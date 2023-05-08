@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Dancing+Script:wght@500&family=Expletus+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Dancing+Script:wght@500&family=Expletus+Sans&display=swap");
+
+.parag1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Expletus Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 59.07px;
+  line-height: 53px;
+  color: #084356;
+  margin-top: 324px;
+}
+.parag2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.07px;
+  display: flex;
+  align-items: center;
+  margin-left: 790px;
+  color: #000000;
+  font-family: "Carrois Gothic SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.07px;
+  line-height: 53px;
+}
+.thank-you-main-img {
+  margin-top: 50px;
+  object-fit: contain;
+  width: 100%;
+  margin-top: 275px;
+}
+.balls {
+  width: 12em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.balls div {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: #d81f37;
+}
+
+.balls div:nth-of-type(1) {
+  transform: translateX(-100%);
+  animation: left-swing 0.5s ease-in alternate infinite;
+}
+
+.balls div:nth-of-type(3) {
+  transform: translateX(-95%);
+  animation: right-swing 0.5s ease-out alternate infinite;
+}
+
+@keyframes left-swing {
+  50%,
+  100% {
+    transform: translateX(95%);
+  }
+}
+
+@keyframes right-swing {
+  50% {
+    transform: translateX(-95%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Dancing+Script:wght@500&display=swap");
+
+.header {
+  height: 131px;
+  background: rgba(217, 217, 217, 0.31);
+  display: block;
+  font-family: "Carrois Gothic SC";
+}
+
+.parent-div-bar {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header-div-bar1 {
+  height: 29px;
+  width: 119px;
+  background: #084356;
+}
+.header-div-bar2 {
+  height: 29px;
+  width: 119px;
+  left: 1045px;
+  top: 0px;
+  border-radius: 0px;
+  background: #1aab8c;
+}
+.header-div-bar3 {
+  height: 29px;
+  width: 119px;
+  left: 1164px;
+  top: 0px;
+  border-radius: 0px;
+  background: #fbe9a6;
+}
+.header-div-bar4 {
+  height: 29px;
+  width: 118px;
+  left: 1281px;
+  top: 0px;
+  border-radius: 0px;
+  background: #f59865;
+}
+.header-div-bar5 {
+  height: 29px;
+  width: 119px;
+  left: 1399px;
+  top: 0px;
+  border-radius: 0px;
+  background: #d81f37;
+}
+/* .header-part2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+} */
+
+.head-img {
+  position: absolute;
+  width: 94px;
+  height: 120px;
+  left: 19px;
+  top: 24px;
+}
+
+.nav {
+  height: 102px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 70px;
+  color: rgba(0, 0, 0, 0.66);
+  font-family: "Carrois Gothic SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 53px;
+}
