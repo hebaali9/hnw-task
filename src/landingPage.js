@@ -18,12 +18,6 @@ function LandingPage() {
     <>
       <div>
         <div className="landing-main-img-container" id="landingDivCont">
-          {/* <div className="landing-main-img-div"></div> */}
-          {/* <img
-          src={landingMainImage}
-          className="landing-main-img"
-          alt="mainimg"
-        /> */}
           <img
             src={landingMainImage}
             className="last-main-img"

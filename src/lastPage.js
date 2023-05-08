@@ -1,7 +1,6 @@
 import "./lastPage.css";
 import lastPageImage from "./images/Form-main-img.png";
 import React, { useState, useEffect } from "react";
-// import { FadingBalls } from "react-cssfx-loading";
 
 function LastPage() {
   const [loading, setLoading] = useState(true);
